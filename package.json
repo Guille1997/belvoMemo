@@ -1,0 +1,72 @@
+{
+  "name": "frontend-espinanegra",
+  "homepage": "https://gonzalezpascualmelvinpaul.github.io/Frontend-EspinaNegra",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "proxy": {
+    "/api": {
+      "target": "https://64.23.227.224",
+      "changeOrigin": true
+    }
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@faker-js/faker": "^7.6.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@iconify/react": "^4.1.0",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/lab": "^5.0.0-alpha.103",
+    "@mui/material": "^5.11.10",
+    "@mui/styles": "^5.10.16",
+    "@mui/x-charts": "^6.0.0-alpha.5",
+    "@mui/x-data-grid": "^5.17.14",
+    "@mui/x-date-pickers": "^5.0.10",
+    "@react-google-maps/api": "^2.19.2",
+    "@reduxjs/toolkit": "^1.9.3",
+    "apexcharts": "^3.37.0",
+    "axios": "^1.2.1",
+    "change-case": "^4.1.2",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.7",
+    "formik": "^2.2.9",
+    "gh-pages": "^6.1.1",
+    "history": "^5.3.0",
+    "lodash": "^4.17.21",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-autosuggest": "^10.1.0",
+    "react-dom": "^18.2.0",
+    "react-email-autocomplete": "^1.3.4",
+    "react-google-charts": "^4.0.1",
+    "react-helmet-async": "^1.3.0",
+    "react-hook-form": "^7.43.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.4",
+    "rfc-facil": "^1.1.0",
+    "simplebar-react": "^3.2.1",
+    "web-vitals": "^3.1.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "dotenv": "^16.1.4",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "vite": "^4.2.0",
+    "vite-plugin-pwa": "^0.14.6"
+  }
+}
