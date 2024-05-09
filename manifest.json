@@ -1,0 +1,27 @@
+{
+    "name": "Belvo Bank",
+    "short_name": "EP",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "scope": "/Frontend-EspinaNegra/#/",
+    "start_url": "/Frontend-EspinaNegra/#/",
+    "icons": [
+      {
+        "src": "maskable_512.png",
+        "sizes": "736x736",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "pwa-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
