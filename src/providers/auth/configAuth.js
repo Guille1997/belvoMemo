@@ -28,7 +28,7 @@ export const TOKEN_KEY = "TOKEN";
 const token = localStorage.getItem(TOKEN_KEY);
 
 export const authApi = axios.create({
-  baseURL: "https://64.23.227.224",
+  baseURL: "https://64.23.227.224:8000/",
   headers: {
     "Content-Type": "application/json",
     ...(token ? { Authorization: `Bearer ${token}` } : {}),
