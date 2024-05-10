@@ -28,7 +28,7 @@ export const TOKEN_KEY = "TOKEN";
 const token = localStorage.getItem(TOKEN_KEY);
 
 export const authApi = axios.create({
-  baseURL: "http://18.219.45.63:8000",
+  baseURL: "https://disapitest.asia",
   headers: {
     "Content-Type": "application/json",
     ...(token ? { Authorization: `Bearer ${token}` } : {}),
